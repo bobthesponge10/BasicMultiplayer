@@ -2,7 +2,7 @@ import socket
 import time
 connections = []
 s = socket.socket()
-host = "10.0.0.50"
+host = input("Ip to use: ")
 print(host)
 port = 10000
 s.bind((host, port))
